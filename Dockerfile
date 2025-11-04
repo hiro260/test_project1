@@ -5,7 +5,7 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Copy project files to the container
-COPY . /app
+#COPY . /app
 
 # Install NumPy directly
 RUN pip install --no-cache-dir numpy
